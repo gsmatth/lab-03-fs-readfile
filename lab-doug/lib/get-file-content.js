@@ -9,7 +9,6 @@ module.exports = function(err, files){
     fs.readFile('./doc/' + files[i], function(err, data){
       if (err) console.error(err);
       fileContents.splice(i, 0, data);
-      console.log('fileContents: ', fileContents);
       logFileContents(fileContents, files);
     });
   }

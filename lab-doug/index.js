@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs');
-const getFileContent  = require(__dirname + '/lib/get-file-content');
+const getFileContent  = require('./lib/get-file-content');
 
 
 
